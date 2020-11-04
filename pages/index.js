@@ -23,6 +23,12 @@ export default function Home() {
               <a>Blog Post</a>
             </Link>
           </li>
+
+          <li>
+            <Link href="/newblog">
+              <a>newBlog</a>
+            </Link>
+          </li>
         </ul>
       </Head>
 
