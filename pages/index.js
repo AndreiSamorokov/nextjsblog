@@ -1,43 +1,20 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import Header from '../components/header'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-        <ul className="nav_link">
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About Us</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/news">
-              <a>Blog Post</a>
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/newblog">
-              <a>newBlog</a>
-            </Link>
-          </li>
-        </ul>
+        <link rel="icon" href="/favicon.ico" /> 
       </Head>
 
+      <Header />
       <main>
         <h1 className="title">
-          Welcome to My Area
+          Next js
         </h1>
- 
-         
       </main>
 
       <footer>
