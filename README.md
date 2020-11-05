@@ -6,7 +6,15 @@
     - fetch Data from Rest API
     - simple styling
 
-## to running,
+## SSR, CSR. SPA. MPA
 
-npm run dev
-
+### SSR ( server site rendering )
+    - SEO : Good
+    - User interactive : Bad
+### CSR ( client side rendering )
+    - SEO : Bad
+    - User interactive : Good
+### SAP( single page application ) & MAP ( multi page application )
+    - *** SAP and MAP is different concept with SSR and CSR *** -
+    - SPA: one page has all datas. redering pages in client side (CSR)
+    - MPA: there are some pages. reload pages with go new pages
