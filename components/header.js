@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Header() {
     return(
-        <div>
+        <div className="nav_menu" >
             <Link href="/"> Home </Link>
             <Link href="/users" > Rest API </Link>
             <Link href="/newblog" > SSR or CSR </Link>

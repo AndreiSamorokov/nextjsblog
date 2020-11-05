@@ -3,6 +3,8 @@ import Head from 'next/head'
  
 import Header from './header'
 
+
+
 function Layout({children}){
     return (
         <div>
@@ -25,7 +27,7 @@ function Layout({children}){
                 >
                 Powered by Andrei
                 </a>
-            </footer>
+            </footer> 
 
         </div>
     );
