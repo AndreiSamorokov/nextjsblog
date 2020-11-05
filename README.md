@@ -1,5 +1,5 @@
 # Next Js tutorial By Andrei
-
+    - next js support SSR one time and CSR 
 ## First Next Js totorial project
     - Layout component Create
     - check SSR or CSR
