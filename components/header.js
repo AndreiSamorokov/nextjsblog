@@ -4,7 +4,7 @@ function Header() {
     return(
         <div>
             <Link href="/"> Home </Link>
-            <Link href="/news" > news </Link>
+            <Link href="/users" > Rest API </Link>
             <Link href="/newblog" > SSR or CSR </Link>
             <Link href="about" > About </Link>
         </div>

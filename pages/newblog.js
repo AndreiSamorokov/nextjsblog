@@ -1,12 +1,19 @@
 import Layout from "../components/Layout";
 
-function NewBlog({url}) {
-    return(
-      <Layout>
-        <div>new blog page</div>
-        <div>Your Search Keyword IS{url.query.keyword}</div>
-      </Layout>
-    );
+class Newblog extends React.Component {
+  static async getInitialProps ({req}) {
+      return req 
+          ? { from: 'server' }
+          : { from: 'client '}
   }
-  
-export default NewBlog
+
+  render() {
+      return (
+          <Layout>
+              This page is Running on {this.props.from} 
+          </Layout>
+      );
+  }
+}
+
+export default Newblog;
